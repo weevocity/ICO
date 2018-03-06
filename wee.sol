@@ -89,7 +89,7 @@ contract WEECoin is StandardToken, WeeMath {
     uint public preSalePeriod;    
     uint256 public weeOneEthCanBuy = 0; 	
     uint256 public constant tokenSaleCap =  500 * (10**6) * 10**decimals;
-    uint256 public constant tokenPreSaleCap = 320 * (10**6) * 10**decimals; 
+    uint256 public constant tokenPreSaleCap = 150 * (10**6) * 10**decimals; 
 	uint256 public constant tokensForFinalize =  150 * (10**6) * 10**decimals;
 	uint256 public totalEthInWei;  
 	
